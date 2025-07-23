@@ -14,8 +14,8 @@ function App() {
       // Backend API'nizin Create endpoint'ine GET isteği atıyoruz
       // Buradaki URL'i de kendi API'nizin doğru adresi ve portu ile güncelleyin!
       // Yani https://localhost:7100/Create
-      const response = await axios.get('https://localhost:7100/Create'); // 
-      
+      const response = await axios.get('https://localhost:7100/Create');
+
       if (response.data) {
         setMessage("Yeni kullanıcı başarıyla oluşturuldu ve veritabanına kaydedildi!");
         setRefreshKey(prevKey => prevKey + 1); // UserList bileşenini yeniden render etmek için key'i artır
@@ -30,21 +30,22 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header" style={{ backgroundColor: '#282c34', padding: '20px', color: 'white', textAlign: 'center' }}>
+      {/* <header> etiketi ve içindeki <h1> başlığı tamamen silindi */}
+      {/* <header className="App-header" style={{ backgroundColor: '#282c34', padding: '20px', color: 'white', textAlign: 'center' }}>
         <h1>Random User API Projem</h1>
-      </header>
+      </header> */}
       <main style={{ padding: '20px' }}>
         <div style={{ marginBottom: '20px', textAlign: 'center' }}>
-          <button 
+          <button
             onClick={handleCreateUser}
-            style={{ 
-              padding: '10px 20px', 
-              fontSize: '16px', 
-              backgroundColor: '#61dafb', 
-              color: '#282c34', 
-              border: 'none', 
-              borderRadius: '5px', 
-              cursor: 'pointer' 
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              backgroundColor: '#61dafb',
+              color: '#282c34',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer'
             }}
           >
             Yeni Kullanıcı Oluştur ve Kaydet
@@ -53,7 +54,7 @@ function App() {
         </div>
         <hr />
         {/* UserList bileşenine refreshKey prop'unu veriyoruz */}
-        <UserList key={refreshKey} /> 
+        <UserList key={refreshKey} />
       </main>
     </div>
   );

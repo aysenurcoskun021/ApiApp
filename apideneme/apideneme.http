@@ -1,0 +1,6 @@
+@apideneme_HostAddress = hhttps://randomuser.me/api
+
+GET {{apideneme_HostAddress}}hhttps://randomuser.me/api/
+Accept: application/json
+
+###

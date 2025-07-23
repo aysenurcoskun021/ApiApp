@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Burası net8.0 kalacak -->
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>cde1cdad-18db-4955-b173-19e9d9f1734c</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Controllers\WeatherForecastController.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Tüm Microsoft.EntityFrameworkCore paketlerini 8.0.7 sürümüne çekiyoruz -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<!-- Microsoft.EntityFrameworkCore.SqlServer kullanmıyorsanız bu satırı kaldırın -->
+		<!-- <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" /> -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+
+		<!-- Npgsql ve Npgsql.EntityFrameworkCore.PostgreSQL paketlerini 8.x sürümlerine çekiyoruz -->
+		<!-- Npgsql 8.0.3 ve Npgsql.EntityFrameworkCore.PostgreSQL 8.0.4 EF Core 8.x ile uyumludur -->
+		<PackageReference Include="Npgsql" Version="8.0.3" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+
+		<!-- Swashbuckle.AspNetCore'yi de 8.x ile uyumlu bir sürüme çekiyoruz -->
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<!-- 8.x ile uyumlu en son 6.6.2 -->
+
+		<!-- Tüm Microsoft.Extensions paketlerini 8.0.0 sürümüne çekiyoruz -->
+		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Primitives" Version="8.0.0" />
+		<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.0" />
+		<PackageReference Include="System.IO.Pipelines" Version="8.0.0" />
+		<PackageReference Include="System.Memory" Version="4.5.5" />
+		<!-- Bu genelde eski kalabilir -->
+		<PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+		<PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
+		<!-- Bu genelde eski kalabilir -->
+		<PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+		<!-- Bu genelde eski kalabilir -->
+		<PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+		<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+		<!-- Bu genelde eski kalabilir -->
+		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
+		<!-- Bu genelde eski kalabilir -->
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:DatabaseConnection",
+      "dynamicId": null
+    },
+    "postgresql1": {
+      "containerPorts": "5432:5432",
+      "secretStore": "LocalSecretsFile",
+      "containerName": "benim-postgres",
+      "containerImage": "postgres",
+      "type": "postgresql.container",
+      "connectionId": "ConnectionStrings:DatabaseConnection1",
+      "dynamicId": null
+    }
+  }
+}

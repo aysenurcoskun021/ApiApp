@@ -39,3 +39,6 @@ C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\obj\Debug\net8.0\refint\Api
 C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\obj\Debug\net8.0\ApiConsoleApp.pdb
 C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\obj\Debug\net8.0\ApiConsoleApp.genruntimeconfig.cache
 C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\obj\Debug\net8.0\ref\ApiConsoleApp.dll
+C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\obj\Debug\net8.0\ApiConsoleApp.sourcelink.json
+C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\bin\Debug\net8.0\Dapper.dll
+C:\Users\nuray\OneDrive\Masaüstü\API\ApiConsoleApp\bin\Debug\net8.0\Dapper.Database.dll

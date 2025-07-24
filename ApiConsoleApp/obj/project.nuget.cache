@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OcYnIePq6pk=",
+  "dgSpecHash": "p/HLSXTADPI=",
   "success": true,
   "projectFilePath": "C:\\Users\\nuray\\OneDrive\\Masaüstü\\API\\ApiConsoleApp\\ApiConsoleApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nuray\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\nuray\\.nuget\\packages\\dapper.database\\5.0.0.258\\dapper.database.5.0.0.258.nupkg.sha512",
+    "C:\\Users\\nuray\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.7\\microsoft.entityframeworkcore.analyzers.8.0.7.nupkg.sha512",
@@ -24,6 +27,7 @@
     "C:\\Users\\nuray\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\npgsql\\8.0.7\\npgsql.8.0.7.nupkg.sha512",
+    "C:\\Users\\nuray\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\system.net.http.json\\9.0.0\\system.net.http.json.9.0.0.nupkg.sha512",
     "C:\\Users\\nuray\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",

@@ -6,7 +6,19 @@
       "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\models2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\models2\\randomuserapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\models2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\models2\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97CC3E59-9630-46CC-A6C3-A9CCFA003845}|..\\ApiConsoleApp\\ApiConsoleApp.csproj|c:\\users\\nuray\\onedrive\\masa\u00FCst\u00FC\\api\\apiconsoleapp\\models2\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,14 +40,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RandomUserApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
-              "RelativeDocumentMoniker": "..\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
-              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
-              "RelativeToolTip": "..\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T12:08:00.538Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\ApiConsoleApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\appsettings.json",
+              "RelativeToolTip": "..\\ApiConsoleApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-23T13:47:50.685Z",
               "EditorCaption": ""
             },
             {
@@ -44,24 +56,76 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "..\\ApiConsoleApp\\Program.cs",
-              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\Program.cs*",
-              "RelativeToolTip": "..\\ApiConsoleApp\\Program.cs*",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAYwN0AAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\Program.cs",
+              "RelativeToolTip": "..\\ApiConsoleApp\\Program.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAuwNsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T12:06:45.096Z",
+              "WhenOpened": "2025-07-23T13:44:07.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\User.cs",
+              "RelativeDocumentMoniker": "..\\ApiConsoleApp\\models2\\User.cs",
+              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\User.cs",
+              "RelativeToolTip": "..\\ApiConsoleApp\\models2\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:44:05.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandomUserApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
+              "RelativeDocumentMoniker": "..\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
+              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
+              "RelativeToolTip": "..\\ApiConsoleApp\\models2\\RandomUserApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:44:04.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\Login.cs",
+              "RelativeDocumentMoniker": "..\\ApiConsoleApp\\models2\\Login.cs",
+              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\Login.cs",
+              "RelativeToolTip": "..\\ApiConsoleApp\\models2\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:44:02.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\Location.cs",
+              "RelativeDocumentMoniker": "..\\ApiConsoleApp\\models2\\Location.cs",
+              "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\Location.cs",
+              "RelativeToolTip": "..\\ApiConsoleApp\\models2\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:44:00.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Info.cs",
               "DocumentMoniker": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\Info.cs",
               "RelativeDocumentMoniker": "..\\ApiConsoleApp\\models2\\Info.cs",
               "ToolTip": "C:\\Users\\nuray\\OneDrive\\Masa\u00FCst\u00FC\\API\\ApiConsoleApp\\models2\\Info.cs",
               "RelativeToolTip": "..\\ApiConsoleApp\\models2\\Info.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:39:37.345Z",
+              "WhenOpened": "2025-07-23T13:43:57.509Z",
               "EditorCaption": ""
             }
           ]
